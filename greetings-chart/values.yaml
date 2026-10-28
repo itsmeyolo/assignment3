@@ -1,5 +1,5 @@
 # Requirement 2.1
-image: ""
+image: "sd43673-assignment3:latest"
 
 # Add variables (Requirement 2.2)
 replicas: 1

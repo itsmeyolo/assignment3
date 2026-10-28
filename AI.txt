@@ -1,0 +1,8 @@
+AI tools used:
+- ChatGPT (GPT-6)
+- Claude 
+
+Debugging prompts/questions:
+- Asked for help troubleshooting the assignment setup and deployment.
+- Asked for help checking assignment requirements and verifying the project setup.
+EOF

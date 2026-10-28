@@ -79,7 +79,10 @@ metadata:
     app: greetings
 rules:
 - apiGroups: [""]
-  resources: ["pods","configmaps","serviceaccounts", "roles", "rolebindings"]
+  resources: ["pods", "configmaps", "serviceaccounts"]
+  verbs: ["get", "list"]
+- apiGroups: ["rbac.authorization.k8s.io"]
+  resources: ["roles", "rolebindings"]
   verbs: ["get", "list"]
 # Requirement 2.9
 ---
