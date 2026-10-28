@@ -1,0 +1,7 @@
+# Requirement 2.1
+image: ""
+
+# Add variables (Requirement 2.2)
+replicas: 1
+greeting: "Hello"
+nodePort: 32764
